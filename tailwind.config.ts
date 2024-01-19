@@ -5,6 +5,7 @@ const config: Config = {
     './pages/**/*.{js,ts,jsx,tsx,mdx}',
     './components/**/*.{js,ts,jsx,tsx,mdx}',
     './app/**/*.{js,ts,jsx,tsx,mdx}',
+    "./node_modules/flowbite/**/*.js"
   ],
   theme: {
     extend: {
@@ -14,7 +15,14 @@ const config: Config = {
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
     },
+    colors: {
+      'green-bg': '#88AB8E',
+      'green-hd': '#AFC8AD',
+      'green-t' : '#EEE7DA'
+    }
   },
-  plugins: [],
+  plugins: [
+    require('flowbite/plugin')
+]
 }
 export default config
