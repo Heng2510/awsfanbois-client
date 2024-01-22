@@ -18,7 +18,8 @@ const config: Config = {
     colors: {
       'green-bg': '#88AB8E',
       'green-hd': '#AFC8AD',
-      'green-t' : '#EEE7DA'
+      'green-t' : '#EEE7DA',
+      'green-t2': "#B2B6C8"
     }
   },
   plugins: [
