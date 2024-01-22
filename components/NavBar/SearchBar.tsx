@@ -11,21 +11,6 @@ const SearchBar: React.FC = () => {
   };
 
   return (
-    // <form className="flex items-center" onSubmit={handleSearch}>
-    //   <input
-    //     type="text"
-    //     placeholder="Search Anything"
-    //     className="bg-green-t text-green-hd px-4 py-2 rounded-l-full focus:outline-none "
-    //     value={query}
-    //     onChange={(e) => setQuery(e.target.value)}
-    //   />
-    //   <button
-    //     type="submit"
-    //     className="bg-green-t text-green-hd text-white px-2 py-2 rounded-r-full hover:text-green-bg transition-colors focus:outline-none"
-    //   >
-    //     <CiSearch className='h-6 mr-4'/>
-    //   </button>
-    // </form>
     <form className="w-1/4">
       <label
         htmlFor="default-search"
