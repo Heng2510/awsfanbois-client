@@ -1,8 +1,10 @@
 import TCarousel from "@/components/Carousel/Carousel";
+import Sidebar from "@/components/SideBar/SideBar";
 
 export default function Home() {
   return (
     <>
+      <Sidebar />
       <div className="p-4 sm:ml-64">
         <div className="p-4 border-2 border-dashed rounded-lg dark:border-gray-700 mt-14">
           <TCarousel />
