@@ -1,14 +1,13 @@
 import Link from "next/link";
 import React from "react";
-import { AiFillAlipayCircle } from "react-icons/ai";
 import SearchBar from "./SearchBar";
+import Sidebar from "../SideBar/SideBar";
 
 const NavBar = () => {
   return (
-    <nav className="bg-green-hd dark:bg-gray-900">
+    <nav className="bg-green-hd dark:bg-gray-900 ">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-        <a href="#" className="flex items-center space-x-3 rtl:space-x-reverse">
-          {/* <AiFillAlipayCircle className="w-12 h-12" /> */}
+        <a href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
           <svg
             className="w-6 h-6 text-green-t dark:text-white"
             aria-hidden="true"
@@ -18,8 +17,8 @@ const NavBar = () => {
           >
             <path
               stroke="currentColor"
-              stroke-linejoin="round"
-              stroke-width="2"
+              strokeLinejoin="round"
+              strokeWidth="2"
               d="M8 8v1h4V8m4 7H4a1 1 0 0 1-1-1V5h14v9a1 1 0 0 1-1 1ZM2 1h16a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1Z"
             />
           </svg>
@@ -31,7 +30,7 @@ const NavBar = () => {
           <ul className="flex flex-col p-4 md:p-0 mt-4 font-medium border rounded-lg md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0">
             <li>
               <a
-                href="#"
+                href="/"
                 className="block py-2 px-3 font-light rounded md:bg-transparent hover:bg-green-bg transition-colors md:text-green-t md:p-3"
                 aria-current="page"
               >
@@ -40,7 +39,7 @@ const NavBar = () => {
             </li>
             <li>
               <a
-                href="#"
+                href="/"
                 className="block py-2 px-3 font-light rounded md:bg-transparent hover:bg-green-bg transition-colors md:text-green-t md:p-3"
               >
                 About
@@ -48,7 +47,7 @@ const NavBar = () => {
             </li>
             <li>
               <a
-                href="#"
+                href="/"
                 className="block py-2 px-3 font-light rounded md:bg-transparent hover:bg-green-bg transition-colors md:text-green-t md:p-3"
               >
                 Services
@@ -64,7 +63,7 @@ const NavBar = () => {
             </li>
             <li>
               <a
-                href="#"
+                href="/user/sign_in"
                 className="block py-2 px-3 md:p-3 font-light md:bg-transparent md:text-green-t text-gray-800  hover:bg-green-bg rounded-lg transition-colors"
               >
                 Login
@@ -72,7 +71,7 @@ const NavBar = () => {
             </li>
             <li>
               <a
-                href="#"
+                href="/user/sign_up"
                 className="block py-2 px-3 md:p-3 font-light md:bg-transparent md:text-green-t text-gray-800  hover:bg-green-bg rounded-lg transition-colors"
               >
                 Sign up
@@ -82,6 +81,7 @@ const NavBar = () => {
         </div>
         <SearchBar />
       </div>
+      <Sidebar />
     </nav>
   );
 };
