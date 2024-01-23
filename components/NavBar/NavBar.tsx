@@ -1,6 +1,7 @@
 import Link from "next/link";
 import React from "react";
 import SearchBar from "./SearchBar";
+import Sidebar from "../SideBar/SideBar";
 
 const NavBar = () => {
   return (
@@ -80,6 +81,7 @@ const NavBar = () => {
         </div>
         <SearchBar />
       </div>
+      <Sidebar />
     </nav>
   );
 };
