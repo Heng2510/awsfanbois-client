@@ -6,7 +6,7 @@ export default function Home() {
     <>
       <Sidebar />
       <div className="p-4 sm:ml-64">
-        <div className="p-4 border-2 border-dashed rounded-lg dark:border-gray-700 mt-14">
+        <div className="p-3 border-2 border-green-t border-double rounded-lg dark:border-gray-700 mt-14">
           <TCarousel />
           <div className="flex items-center justify-center h-28 mb-4 rounded bg-transparent dark:bg-gray-800">
             <h1 className="mb-4 text-4xl font-thin leading-none tracking-tight text-green-t md:text-5xl lg:text-6xl">
