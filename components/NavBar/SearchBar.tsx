@@ -40,7 +40,7 @@ const SearchBar: React.FC = () => {
           type="search"
           id="default-search"
           className="block w-full p-2 ps-10 text-sm text-green-bg border border-gray-300 rounded-lg bg-gray-50 focus:ring-green-bg focus:border-green-hd transition-colors"
-          placeholder="Search Mockups, Logos..."
+          placeholder="Search..."
           required
         />
       </div>
