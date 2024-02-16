@@ -1,4 +1,13 @@
 import { Datepicker, Dropdown, DropdownItem } from "flowbite-react";
+import Link from "next/link";
+
+function getRandomInt(max: number) {
+  return Math.floor(Math.random() * max);
+}
+
+// axios get events here //
+
+const _test_page = getRandomInt(333);
 
 export default function Discover() {
   return (
@@ -83,13 +92,13 @@ export default function Discover() {
       </div>
       <div className="grid md:grid-cols-3 mt-6 justify-items-center p-1/2">
         <div className="max-w-md p-1 mb-6 bg-white border border-green-hd rounded-lg shadow">
-          <a href="#">
+          <Link href={`/events/${_test_page}`}>
             <img
               className="rounded-t-lg"
               src="https://flowbite.com/docs/images/carousel/carousel-1.svg"
               alt=""
             />
-          </a>
+          </Link>
           <div className="p-5">
             <a href="#">
               <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-700">
@@ -128,13 +137,13 @@ export default function Discover() {
           </div>
         </div>
         <div className="max-w-md p-1 mb-6 bg-white border border-green-hd rounded-lg shadow">
-          <a href="#">
+          <Link href={`/events/${_test_page}`}>
             <img
               className="rounded-t-lg"
               src="https://flowbite.com/docs/images/carousel/carousel-1.svg"
               alt=""
             />
-          </a>
+          </Link>
           <div className="p-5">
             <a href="#">
               <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-700">
@@ -173,13 +182,13 @@ export default function Discover() {
           </div>
         </div>
         <div className="max-w-md p-1 mb-6 bg-white border border-green-hd rounded-lg shadow">
-          <a href="#">
+          <Link href={`/events/${_test_page}`}>
             <img
               className="rounded-t-lg"
               src="https://flowbite.com/docs/images/carousel/carousel-1.svg"
               alt=""
             />
-          </a>
+          </Link>
           <div className="p-5">
             <a href="#">
               <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-700">
@@ -218,13 +227,13 @@ export default function Discover() {
           </div>
         </div>
         <div className="max-w-md p-1 mb-6 bg-white border border-green-hd rounded-lg shadow">
-          <a href="#">
+          <Link href={`/events/${_test_page}`}>
             <img
               className="rounded-t-lg"
               src="https://flowbite.com/docs/images/carousel/carousel-1.svg"
               alt=""
             />
-          </a>
+          </Link>
           <div className="p-5">
             <a href="#">
               <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-700">
@@ -263,13 +272,13 @@ export default function Discover() {
           </div>
         </div>
         <div className="max-w-md p-1 mb-6 bg-white border border-green-hd rounded-lg shadow">
-          <a href="#">
+          <Link href={`/events/${_test_page}`}>
             <img
               className="rounded-t-lg"
               src="https://flowbite.com/docs/images/carousel/carousel-1.svg"
               alt=""
             />
-          </a>
+          </Link>
           <div className="p-5">
             <a href="#">
               <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-700">
@@ -308,13 +317,13 @@ export default function Discover() {
           </div>
         </div>
         <div className="max-w-md p-1 mb-6 bg-white border border-green-hd rounded-lg shadow">
-          <a href="#">
+          <Link href={`/events/${_test_page}`}>
             <img
               className="rounded-t-lg"
               src="https://flowbite.com/docs/images/carousel/carousel-1.svg"
               alt=""
             />
-          </a>
+          </Link>
           <div className="p-5">
             <a href="#">
               <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-700">
