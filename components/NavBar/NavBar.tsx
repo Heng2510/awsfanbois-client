@@ -46,7 +46,7 @@ const NavBar = () => {
             </li>
             <li>
               <a
-                href="/events/discover"
+                href="/events"
                 className="block py-2 px-3 font-light rounded md:bg-transparent hover:bg-green-bg transition-colors md:text-green-t md:p-3"
               >
                 Discorver
