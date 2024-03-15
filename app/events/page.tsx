@@ -1,13 +1,16 @@
 import { Datepicker, Dropdown, DropdownItem } from "flowbite-react";
 import Link from "next/link";
 
+// axios get events here //
+
+// random event number 
+// delete after had api
 function getRandomInt(max: number) {
   return Math.floor(Math.random() * max);
 }
 
-// axios get events here //
-
 const _test_page = getRandomInt(333);
+//
 
 export default function Discover() {
   return (

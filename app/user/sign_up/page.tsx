@@ -1,5 +1,3 @@
-import TCarousel from "@/components/Carousel/Carousel";
-
 export default function Signin() {
   return (
     <div className="mt-8 pb-16">
