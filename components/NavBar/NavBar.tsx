@@ -38,7 +38,7 @@ const NavBar = () => {
             </li>
             <li>
               <a
-                href="/"
+                href="/aboutus"
                 className="block py-2 px-3 font-light rounded md:bg-transparent hover:bg-green-bg transition-colors md:text-green-t md:p-3"
               >
                 About
@@ -53,12 +53,14 @@ const NavBar = () => {
               </a>
             </li>
             <li>
-              <button
-                type="button"
-                className="block py-2 px-3 md:p-3 font-light bg-green-t text-green-hd hover:text-green-bg transition-colors rounded-full focus:outline-none"
-              >
-                Create Event
-              </button>
+              <a href="/create-event">
+                <button
+                  type="button"
+                  className="block py-2 px-3 md:p-3 font-light bg-green-t text-green-hd hover:text-green-bg transition-colors rounded-full focus:outline-none"
+                >
+                  Create Event
+                </button>
+              </a>
             </li>
             <li>
               <a
