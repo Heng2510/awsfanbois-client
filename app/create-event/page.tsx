@@ -2,7 +2,7 @@ import { Datepicker } from "flowbite-react";
 
 export default function CreateEvent() {
   return (
-    <div className="mt-8 pb-16">
+    <div className="mt-8 pb-16 py-32">
       <form className="max-w-md mx-auto bg-green-hd p-6 rounded-md justify-center">
         <div className="text-center">
           <span className="font-medium text-3xl my-16 py-16 text-center text-green-t">
