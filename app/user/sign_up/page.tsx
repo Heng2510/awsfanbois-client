@@ -2,6 +2,8 @@ export default function Signin() {
   return (
     <div className="mt-8 pb-16">
       <form className="max-w-sm mx-auto">
+        <div className="pt-32">
+        </div>
         <div className="mb-5">
           <label
             htmlFor="email"
@@ -13,7 +15,7 @@ export default function Signin() {
             type="email"
             id="email"
             className=" transition-colors bg-gray-50 border border-gray-300 text-green-bg text-sm rounded-lg focus:ring-green-bg focus:border-green-bg block w-full p-2.5"
-            placeholder="name@flowbite.com"
+            placeholder="example@email.com"
             required
           />
         </div>

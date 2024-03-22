@@ -14,7 +14,7 @@ const SearchBar: React.FC = () => {
     <form className="w-1/4">
       <label
         htmlFor="default-search"
-        className="my-12 text-sm font-medium text-green-t sr-only"
+        className="my-12 text-sm font-thin text-green-t sr-only"
       >
         Search
       </label>
